@@ -1,0 +1,206 @@
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\packages.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\quartz_jobs.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\log4net.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\AutoManage.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\quartz.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\AutoManage.exe.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\AutoManage.exe
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\AutoManage.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\CCPRestSDK.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Common.Logging.Core.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Common.Logging.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\log4net.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Newtonsoft.Json.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Quartz.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\ServiceStack.Text.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.BLL.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Enum.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Model.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Utility.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Topshelf.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Topshelf.Log4Net.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.IBLL.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.IDAL.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Senparc.Weixin.MP.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\AopSdk.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\TingHuaModels.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.DALFactory.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\EntityFramework.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Exception.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\WebGrease.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Senparc.Weixin.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\NPOI.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\NPOI.OOXML.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.Mvc.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Aliyun.OSS.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\aliyun-net-sdk-sts.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\aliyun-net-sdk-core.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Gma.QrCodeNet.Encoding.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\StackExchange.Redis.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\TopSdk.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\JdSdk.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\open_sdk_csharp.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.EFDAL.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Antlr3.Runtime.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\NPOI.OpenXml4Net.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.Razor.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.Razor.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\LinqKit.EntityFramework.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.BLL.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Enum.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Model.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Utility.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\log4net.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Newtonsoft.Json.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\ServiceStack.Text.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.IBLL.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.IDAL.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\AopSdk.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\TingHuaModels.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.DALFactory.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\EntityFramework.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Exception.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\NPOI.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.Mvc.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Gma.QrCodeNet.Encoding.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\StackExchange.Redis.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.EFDAL.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Antlr3.Runtime.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.Razor.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.Razor.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\LinqKit.EntityFramework.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\zzpTingHua\Management.Tinghua\AutoManage\obj\Debug\AutoManage.csprojResolveAssemblyReference.cache
+E:\zzpTingHua\Management.Tinghua\AutoManage\obj\Debug\AutoManage.exe
+E:\zzpTingHua\Management.Tinghua\AutoManage\obj\Debug\AutoManage.pdb
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.BLL.dll.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Model.dll.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Utility.dll.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.DALFactory.dll.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.EFDAL.dll.config
+E:\zzpTingHua\Management.Tinghua\AutoManage\obj\Debug\AutoManage.csproj.CoreCompileInputs.cache
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\packages.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\quartz_jobs.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\log4net.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\AutoManage.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\quartz.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\AutoManage.exe.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\AutoManage.exe
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\AutoManage.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\CCPRestSDK.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Common.Logging.Core.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Common.Logging.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\log4net.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Newtonsoft.Json.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Quartz.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\ServiceStack.Text.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.BLL.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Enum.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Model.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Utility.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Topshelf.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Topshelf.Log4Net.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.IBLL.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.IDAL.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Senparc.Weixin.MP.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\AopSdk.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\TingHuaModels.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.DALFactory.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\EntityFramework.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Exception.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\WebGrease.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Senparc.Weixin.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\NPOI.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\NPOI.OOXML.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.Mvc.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\TopSdk.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Aliyun.OSS.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\aliyun-net-sdk-sts.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\aliyun-net-sdk-core.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Gma.QrCodeNet.Encoding.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\StackExchange.Redis.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\JdSdk.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\open_sdk_csharp.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.EFDAL.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Antlr3.Runtime.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\NPOI.OpenXml4Net.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.Razor.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.Razor.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\LinqKit.EntityFramework.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.BLL.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.BLL.dll.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Enum.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Model.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Model.dll.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Utility.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.Utility.dll.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\log4net.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Newtonsoft.Json.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\ServiceStack.Text.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.IBLL.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.IDAL.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\AopSdk.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\TingHuaModels.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.DALFactory.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.DALFactory.dll.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\EntityFramework.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Exception.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\NPOI.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.Mvc.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Gma.QrCodeNet.Encoding.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\StackExchange.Redis.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.EFDAL.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Tinghua.Management.EFDAL.dll.config
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\Antlr3.Runtime.pdb
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.Razor.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.Razor.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\LinqKit.EntityFramework.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\obj\Debug\AutoManage.csprojResolveAssemblyReference.cache
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\obj\Debug\AutoManage.csproj.CoreCompileInputs.cache
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\obj\Debug\AutoManage.exe
+E:\TingHua - 整个项目代码 包含(微信 后台 定时任务 开放平台)\Management.Tinghua\AutoManage\obj\Debug\AutoManage.pdb

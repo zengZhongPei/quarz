@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains job definitions in schema version 2.0 format -->
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+
+    <!--OrderConfirmJob自动修改订单为待评价订单 任务配置-->
+    <!--<job>
+      <name>OrderConfirmJobs</name>
+      <group>order</group>
+      <description>自动确认订单</description>
+      <job-type>AutoManage.QuartzJobs.OrderConfirmJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>OrderConfirmJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>OrderConfirmJobs</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 12 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+    <!--OrderCompleteJobs自动修改订单为完成并评价订单 任务配置-->
+    <!--<job>
+      <name>OrderCompleteJobs</name>
+      <group>order</group>
+      <description>自动完成订单</description>
+      <job-type>AutoManage.QuartzJobs.OrderCompleteJobs,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>OrderCompleteJobsTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>OrderCompleteJobs</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 16 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--OrderCompleteJobs自动修改订单为自动确认订单 任务配置-->
+    <!--<job>
+      <name>OrderAutoConfirmJob</name>
+      <group>order</group>
+      <description>自动确认订单</description>
+      <job-type>AutoManage.QuartzJobs.OrderAutoConfirmJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>OrderAutoConfirmJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>OrderAutoConfirmJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 0 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--OrderCancelJob自动修改未付款订单为用户取消 任务配置-->
+    <!--<job>
+      <name>OrderCancelJob</name>
+      <group>order</group>
+      <description>订单未付款自动取消订单</description>
+      <job-type>AutoManage.QuartzJobs.OrderCancelJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>OrderCancelJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>OrderCancelJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 */1 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--OrderReciveTimeUpdateJob自动修改固定4个商品订单第一次收花时间 任务配置-->
+    <!--<job>
+      <name>OrderReciveTimeUpdateJob</name>
+      <group>order</group>
+      <description>自动修改第一次收花时间</description>
+      <job-type>AutoManage.QuartzJobs.OrderReciveTimeUpdateJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>OrderReciveTimeUpdateJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>OrderReciveTimeUpdateJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 */30 * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--bug修复自动任务,修复购买情人节包月商品后没有生成子订单-->
+    <!--<job>
+      <name>BugJobsJob</name>
+      <group>order</group>
+      <description>bug修复自动任务</description>
+      <job-type>AutoManage.QuartzJobs.BugJobs,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>BugJobsJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>BugJobsJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 */30 * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+
+    <!--自动发货和收货短信提醒-->
+    <!--<job>
+      <name>ReminderJob</name>
+      <group>order</group>
+      <description>ReminderJob</description>
+      <job-type>AutoManage.QuartzJobs.ReminderJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>ReminderJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>ReminderJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 16,18,20 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--自动修改子订单订单状态为已完成-->
+    <!--<job>
+      <name>OrderChildCompleteJob</name>
+      <group>order</group>
+      <description>OrderChildCompleteJob</description>
+      <job-type>AutoManage.QuartzJobs.OrderChildCompleteJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>OrderChildCompleteJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>OrderChildCompleteJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 12 * * ?</cron-expression>
+      </cron>
+    </trigger>
+  </schedule>-->
+
+    <!--自动把已付款的订单的数据更新至redis-->
+    <!--<job>
+      <name>InsertFirstOrderJob</name>
+      <group>order</group>
+      <description>InsertFirstOrderJob</description>
+      <job-type>AutoManage.QuartzJobs.InsertFirstOrderJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>InsertFirstOrderJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>InsertFirstOrderJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 55 23 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--限购商品购买后发送短信验证码-->
+    <!--<job>
+      <name>LimitShopSendMsgJob</name>
+      <group>order</group>
+      <description>LimitShopSendMsgJob</description>
+      <job-type>AutoManage.QuartzJobs.LimitShopSendMsgJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>LimitShopSendMsgJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>LimitShopSendMsgJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2017-04-24T17:50:00+08:00</start-time>
+        <cron-expression>0 0 11 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--有赞订单同步-->
+    <!--<job>
+      <name>YouZanJob</name>
+      <group>order</group>
+      <description>YouZanJob</description>
+      <job-type>AutoManage.QuartzJobs.YouZanJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>YouZanJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>YouZanJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 1 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+    <!--拼团订单修改状态自动任务-->
+    <!--<job>
+      <name>UpdateGroupEndOrderStateJobs</name>
+      <group>order</group>
+      <description>UpdateGroupEndOrderStateJobs</description>
+      <job-type>AutoManage.QuartzJobs.UpdateGroupEndOrderStateJobs,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>UpdateGroupEndOrderStateJobsTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>UpdateGroupEndOrderStateJobs</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0/10 * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--自动加载数据到打单记录表自动任务 0/10 * * * * ?-->
+     <!--<job>
+      <name>InsertPrintOrderJob</name>
+      <group>order</group>
+      <description>InsertPrintOrderJob</description>
+      <job-type>AutoManage.QuartzJobs.InsertPrintOrderJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>InsertPrintOrderJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>InsertPrintOrderJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-21T00:00:00+08:00</start-time>
+        <cron-expression>0 */20 * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+
+    <!--自动加载数据到打单记录表修复自动任务-->
+    <!--<job>
+      <name>TriggerRepairJob</name>
+      <group>order</group>
+      <description>TriggerRepairJob</description>
+      <job-type>AutoManage.QuartzJobs.TriggerRepairJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>TriggerRepairJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>TriggerRepairJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 1/2 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--自动任务处理赠送花瓶异常数据-->
+    <!--<job>
+      <name>OrderIsGiveJob</name>
+      <group>order</group>
+      <description>OrderIsGiveJob</description>
+      <job-type>AutoManage.QuartzJobs.OrderIsGiveJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>OrderIsGiveJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>OrderIsGiveJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 1/2 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--自动组合订单处理任务-->
+    <!--<job>
+      <name>ConsolidatedOrderJob</name>
+      <group>order</group>
+      <description>ConsolidatedOrderJob</description>
+      <job-type>AutoManage.QuartzJobs.ConsolidatedOrderJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>ConsolidatedOrderJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>ConsolidatedOrderJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0/23 * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--网店管家发货后同步-->
+    <!--<job>
+      <name>WangdianGuanJiaSendOrderJob</name>
+      <group>order</group>
+      <description>WangdianGuanJiaSendOrderJob</description>
+      <job-type>AutoManage.QuartzJobs.WangdianGuanJiaSendOrderJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>WangdianGuanJiaSendOrderJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>WangdianGuanJiaSendOrderJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0/30 * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--ConsolidateOrderStateRepairJob自动修改合并订单异常数据 任务配置-->
+    <!--<job>
+      <name>ConsolidateOrderStateRepairJob</name>
+      <group>order</group>
+      <description>修复合单异常数据</description>
+      <job-type>AutoManage.QuartzJobs.ConsolidateOrderStateRepairJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>ConsolidateOrderStateRepairJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>ConsolidateOrderStateRepairJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 1 * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+
+    <!--KuaiDiNiaoSubscribeExpressJob快递鸟物流订阅接口 任务配置-->
+    <job>
+      <name>KuaiDiNiaoSubscribeExpressJob</name>
+      <group>order</group>
+      <description>快递鸟物流订阅接口</description>
+      <job-type>AutoManage.QuartzJobs.KuaiDiNiaoSubscribeExpressJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>KuaiDiNiaoSubscribeExpressJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>KuaiDiNiaoSubscribeExpressJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 3 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    
+    <!--测试Job-->
+    <!--<job>
+      <name>TestJob</name>
+      <group>order</group>
+      <description>TestJob</description>
+      <job-type>AutoManage.QuartzJobs.TestJob,AutoManage</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>TestJobTrigger</name>
+        <group>orderTrigger</group>
+        <job-name>TestJob</job-name>
+        <job-group>order</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0/10 * * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+    
+  </schedule>
+</job-scheduling-data>

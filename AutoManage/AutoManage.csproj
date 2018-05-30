@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C8EF700-DB89-41D7-BA97-D4646A9DC227}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoManage</RootNamespace>
+    <AssemblyName>AutoManage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\听花科技\自动任务\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CCPRestSDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\CCPRestSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging">
+      <HintPath>..\..\Lib\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core">
+      <HintPath>..\..\Lib\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>..\..\Lib\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text, Version=4.0.56.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Api\TingHua\Bin\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Topshelf, Version=3.2.150.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Topshelf.3.2.0\lib\net40-full\Topshelf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Topshelf.Log4Net, Version=3.2.150.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Topshelf.Log4Net.3.2.0\lib\net40-full\Topshelf.Log4Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper\ErrorHelper.cs" />
+    <Compile Include="Helper\SendMsgHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuartzJobs\BugJobs.cs" />
+    <Compile Include="QuartzJobs\ConsolidatedOrderJob.cs" />
+    <Compile Include="QuartzJobs\ConsolidateOrderStateRepairJob.cs" />
+    <Compile Include="QuartzJobs\InsertFirstOrderJob.cs" />
+    <Compile Include="QuartzJobs\InsertPrintOrderJob.cs" />
+    <Compile Include="QuartzJobs\KuaiDiNiaoSubscribeExpressJob.cs" />
+    <Compile Include="QuartzJobs\LimitShopSendMsgJob.cs" />
+    <Compile Include="QuartzJobs\OrderAutoConfirmJob.cs" />
+    <Compile Include="QuartzJobs\OrderCancelJob.cs" />
+    <Compile Include="QuartzJobs\OrderChildCompleteJob.cs" />
+    <Compile Include="QuartzJobs\OrderCompleteJobs.cs" />
+    <Compile Include="QuartzJobs\OrderConfirmJob.cs" />
+    <Compile Include="QuartzJobs\OrderIsGiveJob.cs" />
+    <Compile Include="QuartzJobs\OrderReciveTimeUpdateJob.cs" />
+    <Compile Include="QuartzJobs\ReminderJob.cs" />
+    <Compile Include="QuartzJobs\TestJob.cs" />
+    <Compile Include="QuartzJobs\TriggerRepairJob.cs" />
+    <Compile Include="QuartzJobs\UpdateGroupEndOrderStateJobs.cs" />
+    <Compile Include="QuartzJobs\WangdianGuanJiaSendOrderJob.cs" />
+    <Compile Include="QuartzJobs\YouZanJob.cs" />
+    <Compile Include="ServiceRunner.cs" />
+    <Compile Include="Sqlserver\AnonymouseHelper.cs" />
+    <Compile Include="Sqlserver\CallBackEvent.cs" />
+    <Compile Include="Sqlserver\ConditionBuilder.cs" />
+    <Compile Include="Sqlserver\ConfigCheck.cs" />
+    <Compile Include="Sqlserver\ConvertHelper.cs" />
+    <Compile Include="Sqlserver\DynamicMethod.cs" />
+    <Compile Include="Sqlserver\ExpressionVisitor.cs" />
+    <Compile Include="Sqlserver\IMemberAccessor.cs" />
+    <Compile Include="Sqlserver\JsonDictionary.cs" />
+    <Compile Include="Sqlserver\JsonList.cs" />
+    <Compile Include="Sqlserver\MyQueryable.cs" />
+    <Compile Include="Sqlserver\PartialEvaluator.cs" />
+    <Compile Include="Sqlserver\PredicateExtensions.cs" />
+    <Compile Include="Sqlserver\PredicateExtensionses.cs" />
+    <Compile Include="Sqlserver\QueryableData.cs" />
+    <Compile Include="Sqlserver\QueryProvider.cs" />
+    <Compile Include="Sqlserver\Reflection.cs" />
+    <Compile Include="Sqlserver\SiteCache.cs" />
+    <Compile Include="Sqlserver\SqlServer.cs" />
+    <Compile Include="Sqlserver\SqlServerClient.cs" />
+    <Compile Include="Sqlserver\SqlServerClientSingleton.cs" />
+    <Compile Include="Sqlserver\SqlServerConfig.cs" />
+    <Compile Include="Sqlserver\TableHelper.cs" />
+    <Compile Include="Sqlserver\TypeConvert.cs" />
+    <Compile Include="Sqlserver\TypeSystem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Configs\micua2.config" />
+    <Content Include="Configs\Tinghua.config" />
+    <Content Include="Configs\unity.config">
+      <DependentUpon>unity.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Designer</SubType>
+      <DesignTime>True</DesignTime>
+    </Content>
+    <Content Include="Configs\Utilities.ttinclude" />
+    <None Include="job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="AutoManage.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quartz.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tinghua.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configs\unity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>unity.config</LastGenOutput>
+    </Content>
+    <Content Include="quartz_jobs.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tinghua.Management.BLL\Tinghua.Management.BLL.csproj">
+      <Project>{C1D2BD4B-E8C6-40AD-BFA6-B506C611B4B5}</Project>
+      <Name>Tinghua.Management.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tinghua.Management.Enum\Tinghua.Management.Enum.csproj">
+      <Project>{960edb22-3330-411b-b0be-8d63641d8d23}</Project>
+      <Name>Tinghua.Management.Enum</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tinghua.Management.Model\Tinghua.Management.Model.csproj">
+      <Project>{c24c370b-160d-4ccd-be7b-e75d59168d6c}</Project>
+      <Name>Tinghua.Management.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tinghua.Management.Utility\Tinghua.Management.Utility.csproj">
+      <Project>{92900e59-13d8-4813-81f5-3c3bc52b868a}</Project>
+      <Name>Tinghua.Management.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
